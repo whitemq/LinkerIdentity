@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhOCiu7vWfuLdSlj4RDebQ9n6HNRWzY4j+TaeVkPlblOHFePbdN4Pt3kSsgB7O6h/CZqev3wL04wUE0itWuDlLYP7SyWJ5QP3WN2V0LSSCfePw07uhKCmZKttDkCopxBp9f1C2sYT6snCoZ6Za9v1owMBt/ek2aunv9fKbMtcpg4O1QAyShtrBdPLEWUIt9xH8RwE9IzGAdPAQmSjxhhXCxbozOal0MGU7FkUY3F2xYVKGOlYjFXe+dvhoRWVe4y26ltviCq9pkcu8j+QKdX1mVPfHl+dew0CTVAaGxf9a26f0z+v6Vtl8pZwzABeBUSiTNL45G5INxvUI3UTV35F/QIDAQAB",
+
+  "name": "Linker",
+  "description": "This extension shows a Google Image search result for the current page",
+  "version": "0.0.0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  
+  "oauth2": {
+    "client_id": "302716478675-t795jl0ce94ap5varo2036isntaodssv.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/userinfo.profile"
+    ]
+  },
+  
+  "permissions": [
+    "activeTab",
+	"identity",
+    "https://ajax.googleapis.com/"
+  ]
+}
